@@ -5,15 +5,15 @@ import java.util.Map;
 
 import com.nfl.model.GameSnapShot;
 import com.nfl.reader.JsonReader;
-import com.nfl.report.ExcelReport;
+import com.nfl.report.NflDataExporter;
 
-public class NflDataGenarator {
+public class NflDataGenerator {
 
 	public static void main(String[] args) {
 		JsonReader jsonReader = new JsonReader();
 		jsonReader.readAll();
 
-		ExcelReport reporter = new ExcelReport(jsonReader.getJsonToListGamechip(), jsonReader.getFileNames());
+		NflDataExporter reporter = new NflDataExporter(jsonReader.getJsonToListGamechip(), jsonReader.getFileNames());
 		reporter.generateReport();
 	}
 
