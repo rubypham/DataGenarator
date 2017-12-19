@@ -1,0 +1,1307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>1.1</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<string></string>
+			<key>level</key>
+			<string>1</string>
+			<key>root</key>
+			<array>
+				<string>Who is responsible for establishing and managing a risk-based testing strategy?</string>
+			</array>
+			<key>options</key>
+			<array>
+				<array>
+					<string>The Test Manager</string>
+				</array>
+				<array>
+					<string>The Technical Test Analyst</string>
+				</array>
+				<array>
+					<string>The Test Analyst</string>
+				</array>
+				<array>
+					<string>None of them</string>
+				</array>
+			</array>
+			<key>right</key>
+			<array>
+				<integer>1</integer>
+			</array>
+			<key>explanation</key>
+			<array>
+				<string>The Test Manager is responsible for establishing and managing a risk-based testing strategy.</string>
+			</array>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string></string>
+			<key>level</key>
+			<string>1</string>
+			<key>section</key>
+			<string>1.1</string>
+			<key>root</key>
+			<array>
+				<string>Who will involve ensuring the risk-based approach is implemented correctly?</string>
+			</array>
+			<key>options</key>
+			<array>
+				<array>
+					<string>The Test Manager</string>
+				</array>
+				<array>
+					<string>The Technical Test Analyst</string>
+				</array>
+				<array>
+					<string>The Test Analyst</string>
+				</array>
+				<array>
+					<string>All of them</string>
+				</array>
+			</array>
+			<key>right</key>
+			<array>
+				<integer>2</integer>
+			</array>
+			<key>explanation</key>
+			<array>
+				<string>The Technical Test Analyst will involve ensuring the risk-based approach is implemented correctly.</string>
+			</array>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string></string>
+			<key>level</key>
+			<string>1</string>
+			<key>section</key>
+			<string>1.1</string>
+			<key>root</key>
+			<array>
+				<string>Which of the following is NOT a risk-based testing task?</string>
+			</array>
+			<key>options</key>
+			<array>
+				<array>
+					<string>Risk identification</string>
+				</array>
+				<array>
+					<string>Risk assessment</string>
+				</array>
+				<array>
+					<string>Risk mitigation</string>
+				</array>
+				<array>
+					<string>None of these above</string>
+				</array>
+			</array>
+			<key>right</key>
+			<array>
+				<integer>4</integer>
+			</array>
+			<key>explanation</key>
+			<array>
+				<string>Technical Test Analysts are actively involved in the following risk-based testing tasks: Risk identification, Risk assessment, Risk mitigation</string>
+			</array>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string></string>
+			<key>level</key>
+			<string>1</string>
+			<key>section</key>
+			<string>1.1</string>
+			<key>root</key>
+			<array>
+				<string>Which of the following are NOT considered as technical risks?</string>
+			</array>
+			<key>options</key>
+			<array>
+				<array>
+					<string>Performance risks</string>
+				</array>
+				<array>
+					<string>Reliability risks</string>
+				</array>
+				<array>
+					<string>Functionality risks</string>
+				</array>
+				<array>
+					<string>Security risks</string>
+				</array>
+			</array>
+			<key>right</key>
+			<array>
+				<integer>3</integer>
+			</array>
+			<key>explanation</key>
+			<array>
+				<string>Sample risks that might be identified include: Performance risks, Reliability risks, Security risks.</string>
+			</array>
+		</dict>
+	</array>
+	<key>1.2</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<string>1.2_001</string>
+			<key>level</key>
+			<string>1</string>
+			<key>root</key>
+			<array>
+				<string>Because Technical Test Analysts possess unique technical skills, they are particularly well-suited for conducting expert interviews, brainstorming with co-workers and also analyzing the current and past experiences to determine where the likely areas of product risk lie. In particular, the Technical Test Analysts work closely with their technical peers to determine the areas of technical risk. Who can be considered as technical peers of the TTAs?
+               	
+	1. Developers
+	2. Test Analysts
+	3. Architects
+	4. Operations Engineers
+	5. Test consultants</string>
+			</array>
+			<key>options</key>
+			<array>
+				<array>
+					<string>1, 2, 3</string>
+				</array>
+				<array>
+					<string>1, 2, 3, 4</string>
+				</array>
+				<array>
+					<string>1, 3, 4</string>
+				</array>
+				<array>
+					<string>1, 3, 4, 5</string>
+				</array>
+			</array>
+			<key>right</key>
+			<array>
+				<integer>3</integer>
+			</array>
+			<key>explanation</key>
+			<array>
+				<string>The Technical Test Analysts work closely with their technical peers (Developers, Architects, Operations Engineers) to determine the areas of technical risk.</string>
+			</array>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>1.2_002</string>
+			<key>level</key>
+			<string>1</string>
+			<key>root</key>
+			<array>
+				<string>In the risk identification process, which of the following tasks should be performed?
+	1. The TTAs possess their unique technical skills.
+	2. The TTAs conduct expert interviews, brainstorming with co-workers.
+	3. The TTAs analyze the current and past experiences to determine where the likely areas of product risk lie.
+	4. The TTAs work with their technical peers to identify the potential risks. 
+	5. The TTAs work with the Test Analysts to identify the potential risks.
+</string>
+			</array>
+			<key>options</key>
+			<array>
+				<array>
+					<string>1, 2, 3</string>
+				</array>
+				<array>
+					<string>2, 3, 4</string>
+				</array>
+				<array>
+					<string>3, 4, 5</string>
+				</array>
+				<array>
+					<string>1, 3, 5</string>
+				</array>
+				<array>
+					<string>2, 3, 5</string>
+				</array>
+			</array>
+			<key>right</key>
+			<array>
+				<integer>2</integer>
+			</array>
+			<key>explanation</key>
+			<array>
+				<string>The Technical Test Analysts work closely with their technical peers (Developers, Architects, Operations Engineers) to determine the areas of technical risk.</string>
+			</array>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>1.2_003</string>
+			<key>level</key>
+			<string>1</string>
+			<key>root</key>
+			<array>
+				<string>Map the sample risks with the correct risk categories: 
+	1.	Performance risks 
+	2.	Security risks 
+	3.	Reliability risks
+
+	a)	Inability to achieve response times under high load conditions.
+	b)	Disclosure of sensitive data through security attacks.
+	c)	Application unable to meet availability specified in the Service Level Agreement.</string>
+			</array>
+			<key>options</key>
+			<array>
+				<array>
+					<string>1-a, 2-b-c</string>
+				</array>
+				<array>
+					<string>1-c, 2-b, 3-a</string>
+				</array>
+				<array>
+					<string>1-a, 2-b, 3-c</string>
+				</array>
+				<array>
+					<string>1-a-c, 2-b</string>
+				</array>
+				<array>
+					<string>1-b, 2-c, 3-a</string>
+				</array>
+			</array>
+			<key>right</key>
+			<array>
+				<integer>3</integer>
+			</array>
+			<key>explanation</key>
+			<array>
+				<string>Performance risks (e.g., inability to achieve response times under high load conditions)
+	Security risks (e.g., disclosure of sensitive data through security attacks)
+	Reliability risks (e.g., application unable to meet availability specified in the Service Level Agreement)</string>
+			</array>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>1.2_004</string>
+			<key>level</key>
+			<string>1</string>
+			<key>root</key>
+			<array>
+				<string>Which of the following is TRUE?</string>
+			</array>
+			<key>options</key>
+			<array>
+				<array>
+					<string>The risk identification process is most likely to detect the possible number of significant technical risks.</string>
+				</array>
+				<array>
+					<string>The risk identification process is most likely to detect the possible number of significant performance risks.</string>
+				</array>
+				<array>
+					<string>The risk identification process is most likely to detect the possible number of significant functional risks.</string>
+				</array>
+				<array>
+					<string>The risk identification process is most likely to detect the possible number of significant system risks.</string>
+				</array>
+				<array>
+					<string>The risk identification process is most likely to detect the largest possible number of significant risks.</string>
+				</array>
+			</array>
+			<key>right</key>
+			<array>
+				<integer>5</integer>
+			</array>
+			<key>explanation</key>
+			<array>
+				<string>The risk identification process is most likely to detect the largest possible number of significant risks.</string>
+			</array>
+		</dict>
+	</array>
+	<key>1.3</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<string>1.3_001</string>
+			<key>level</key>
+			<string>1</string>
+			<key>root</key>
+			<array>
+				<string>Which of the following are NOT true?</string>
+			</array>
+			<key>options</key>
+			<array>
+				<array>
+					<string>Risk identification is about identifying as many pertinent risks as possible.</string>
+				</array>
+				<array>
+					<string>Risk assessment is the study of the identified risks in order to categorize each risk and determine the likelihood and impact associated with each risk.</string>
+				</array>
+				<array>
+					<string>Determining the level of risk typically involves assessing the likelihood of occurrence and the impact upon occurrence.</string>
+				</array>
+				<array>
+					<string>Determining the level of risk only involves assessing the likelihood of occurrence determining the severity of risk involves assessing the impact upon occurrence.</string>
+				</array>
+				<array>
+					<string>The likelihood of occurrence is usually interpreted as the likelihood that the potential problem can exist in the system under test.</string>
+				</array>
+			</array>
+			<key>right</key>
+			<array>
+				<integer>4</integer>
+			</array>
+			<key>explanation</key>
+			<array>
+				<string>Determining the level of risk only involves assessing the likelihood of occurrence determining the severity of risk involves assessing the impact upon occurrence.</string>
+			</array>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>1.3_002</string>
+			<key>level</key>
+			<string>1</string>
+			<key>root</key>
+			<array>
+				<string>Who contributes to finding and understanding the potential technical risk for each risk item?</string>
+			</array>
+			<key>options</key>
+			<array>
+				<array>
+					<string>The Test Manager</string>
+				</array>
+				<array>
+					<string>The Technical Test Analyst</string>
+				</array>
+				<array>
+					<string>The Test Analyst</string>
+				</array>
+				<array>
+					<string>Both the Test Analyst and the Technical Test Analyst</string>
+				</array>
+			</array>
+			<key>right</key>
+			<array>
+				<integer>2</integer>
+			</array>
+			<key>explanation</key>
+			<array>
+				<string>The Technical Test Analyst contributes to finding and understanding the potential technical risk for each risk item.</string>
+			</array>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>1.3_003</string>
+			<key>level</key>
+			<string>1</string>
+			<key>root</key>
+			<array>
+				<string>Who contributes to finding and contributes to understanding the potential business impact of the problem should it occur?</string>
+			</array>
+			<key>options</key>
+			<array>
+				<array>
+					<string>The Test Manager</string>
+				</array>
+				<array>
+					<string>The Technical Test Analyst</string>
+				</array>
+				<array>
+					<string>The Test Analyst</string>
+				</array>
+				<array>
+					<string>Both the Test Analyst and the Technical Test Analyst</string>
+				</array>
+			</array>
+			<key>right</key>
+			<array>
+				<integer>3</integer>
+			</array>
+			<key>explanation</key>
+			<array>
+				<string>The Test Analyst contributes to finding and contributes to understanding the potential business impact of the problem should it occur.</string>
+			</array>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>1.4_003</string>
+			<key>level</key>
+			<string>1</string>
+			<key>root</key>
+			<array>
+				<string>Which of the following are typical factors need to be considered in risk assessment stage. Chose 3 options</string>
+			</array>
+			<key>options</key>
+			<array>
+				<array>
+					<string>Complexity of technology, code structure</string>
+				</array>
+				<array>
+					<string>Conflict between stakeholders regarding technical requirements, Communication problems resulting from the geographical distribution of the development organization</string>
+				</array>
+				<array>
+					<string>Confilct between Tools and technology</string>
+				</array>
+				<array>
+					<string>Time, resource and management pressure</string>
+				</array>
+				<array>
+					<string>Conflict between team members and/or team members with project manager</string>
+				</array>
+			</array>
+			<key>right</key>
+			<array>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>4</integer>
+			</array>
+			<key>explanation</key>
+			<array>
+				<string>Generic factors that typically need to be considered in risk assessment stage include: 
+	- Complexity of technology, code structure 
+	- Conflict between stakeholders regarding technical requirements. Communication problems resulting from the geographical distribution of the development organization 
+	- Tools and technology 
+	- Time, resource and management pressure
+	...</string>
+			</array>
+		</dict>
+	</array>
+	<key>1.4</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<string>1.4_001</string>
+			<key>level</key>
+			<string>2</string>
+			<key>root</key>
+			<array>
+				<string>Which of the following is NOT true about risk mitigation</string>
+			</array>
+			<key>options</key>
+			<array>
+				<array>
+					<string>Reducing risk by executing the most important tests and by putting into action appropriate mitigation activities as stated in the test strategy and test plan</string>
+				</array>
+				<array>
+					<string>Reducing risk by executing the most important tests and by putting into action appropriate mitigation and contingency activities as stated in the test strategy and test plan</string>
+				</array>
+				<array>
+					<string>Evaluating risks based on additional information gathered as the project unfolds, and using that information to implement mitigation actions aimed at decreasing the likelihood or impact of the risks previously identified and analyzed</string>
+				</array>
+				<array>
+					<string>Risk-based testing mitigates quality risks via testing throughout the entire lifecycle.</string>
+				</array>
+			</array>
+			<key>right</key>
+			<array>
+				<integer>1</integer>
+			</array>
+			<key>explanation</key>
+			<array>
+				<string></string>
+			</array>
+		</dict>
+	</array>
+	<key>2.1</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<string>1.4_001</string>
+			<key>level</key>
+			<string>2</string>
+			<key>root</key>
+			<array>
+				<string>Which of the following is structure-based test design technique? Chose 3 options</string>
+			</array>
+			<key>options</key>
+			<array>
+				<array>
+					<string>Condition testing</string>
+				</array>
+				<array>
+					<string>Decision testing</string>
+				</array>
+				<array>
+					<string>Condition Decision testing</string>
+				</array>
+				<array>
+					<string>Decision Condition testing</string>
+				</array>
+				<array>
+					<string>Condition/Decision testing</string>
+				</array>
+			</array>
+			<key>right</key>
+			<array>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>4</integer>
+			</array>
+			<key>explanation</key>
+			<array>
+				<string>There is no term Condition Decision testing, or Condition/Decision testing according to ISTQB</string>
+			</array>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>2.1_002</string>
+			<key>level</key>
+			<string>1</string>
+			<key>root</key>
+			<array>
+				<string>Which technuqyes are based on decision predicates?</string>
+			</array>
+			<key>options</key>
+			<array>
+				<array>
+					<string>Condidition Testing</string>
+				</array>
+				<array>
+					<string>Decision Condition Testing</string>
+				</array>
+				<array>
+					<string>MC/DC Testing</string>
+				</array>
+				<array>
+					<string>Multiple Condition Testing</string>
+				</array>
+				<array>
+					<string>All of these above</string>
+				</array>
+			</array>
+			<key>right</key>
+			<array>
+				<integer>5</integer>
+			</array>
+			<key>explanation</key>
+			<array>
+				<string>Condidition Testing, Decision Condition Testing, MC/DC Testing, Multiple Condition Testing are based on decision predicates.</string>
+			</array>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>2.1_003</string>
+			<key>level</key>
+			<string>1</string>
+			<key>root</key>
+			<array>
+				<string>Chose the BEST answer for decision predicates</string>
+			</array>
+			<key>options</key>
+			<array>
+				<array>
+					<string>A decision predicates always evalutes to either TRUE or FALSE.</string>
+				</array>
+				<array>
+					<string>If a decision predicates is very complex, it can be devided into the smaller desicion predicates.</string>
+				</array>
+				<array>
+					<string>If a decision predicates is very complex, it cannot be devided into the smaller desicion predicates.</string>
+				</array>
+				<array>
+					<string>The decision predicates are different outcomes.</string>
+				</array>
+			</array>
+			<key>right</key>
+			<array>
+				<integer>1</integer>
+			</array>
+			<key>explanation</key>
+			<array>
+				<string>1 (A decision predicates always evalutes to either TRUE or FALSE.) is correct
+2 (If a decision predicates is very complex, it can be devided into the smaller desicion predicates.) and 3 (If a decision predicates is very complex, it cannot be devided into the smaller desicion predicates.) are not always be correct or not. It depends on the architecture, flow of code, developers' mindset, ...
+4 (The decision predicates are different outcomes.) is totally wrong</string>
+			</array>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>2.1_004</string>
+			<key>level</key>
+			<string>1</string>
+			<key>root</key>
+			<array>
+				<string>Structure-based test design technique are also called as? Chose 2 options</string>
+			</array>
+			<key>options</key>
+			<array>
+				<array>
+					<string>White-box test design technique</string>
+				</array>
+				<array>
+					<string>Black-box test design technique</string>
+				</array>
+				<array>
+					<string>Specification-based test design technique</string>
+				</array>
+				<array>
+					<string>Code-based test design technique</string>
+				</array>
+				<array>
+					<string>Model-Based test design technique</string>
+				</array>
+			</array>
+			<key>right</key>
+			<array>
+				<integer>1</integer>
+				<integer>4</integer>
+			</array>
+			<key>explanation</key>
+			<array>
+				<string>Structure-based test design technique are also called as White-box test design technique or Code-based test design technique.</string>
+			</array>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>2.1_005</string>
+			<key>level</key>
+			<string>1</string>
+			<key>root</key>
+			<array>
+				<string>Which of the following is NOT the test basis for structure-based test design technique?</string>
+			</array>
+			<key>options</key>
+			<array>
+				<array>
+					<string>The code</string>
+				</array>
+				<array>
+					<string>The data</string>
+				</array>
+				<array>
+					<string>The data flow</string>
+				</array>
+				<array>
+					<string>The system flow</string>
+				</array>
+				<array>
+					<string>The architecture</string>
+				</array>
+			</array>
+			<key>right</key>
+			<array>
+				<integer>3</integer>
+			</array>
+			<key>explanation</key>
+			<array>
+				<string>The code, the data, the architecture, the system flow are the test basis for structure-based test design technique.</string>
+			</array>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>2.1_006</string>
+			<key>level</key>
+			<string>1</string>
+			<key>root</key>
+			<array>
+				<string>Which is TRUE  about 100% coverage?</string>
+			</array>
+			<key>options</key>
+			<array>
+				<array>
+					<string>The entire set of tests is complete.</string>
+				</array>
+				<array>
+					<string>The entire set of tests is not complete and more useful tests can be added.</string>
+				</array>
+				<array>
+					<string>The entire set of tests may be not complete but the technique being used no longer suggests any useful tests.</string>
+				</array>
+				<array>
+					<string>None of the above.</string>
+				</array>
+			</array>
+			<key>right</key>
+			<array>
+				<integer>3</integer>
+			</array>
+			<key>explanation</key>
+			<array>
+				<string>Achieving full coverage does not mean that the entire set of tests is complete, but rather that the technique being used no longer suggests any useful tests for the structure under consideration.</string>
+			</array>
+		</dict>
+	</array>
+	<key>2.2</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<string>2.2_001</string>
+			<key>level</key>
+			<string>1</string>
+			<key>root</key>
+			<array>
+				<string>Which is not true?</string>
+			</array>
+			<key>options</key>
+			<array>
+				<array>
+					<string>Condition testing considers the entire decision and evaluates the true and false out comes in seperate test cases.</string>
+				</array>
+				<array>
+					<string>Condition testing considers how a decision made</string>
+				</array>
+				<array>
+					<string>Each atomic condition mus be evaluated both ways to achieve condition coverage.</string>
+				</array>
+				<array>
+					<string>A decision predicate is made up one or more atomic conditions.</string>
+				</array>
+			</array>
+			<key>right</key>
+			<array>
+				<integer>1</integer>
+			</array>
+			<key>explanation</key>
+			<array>
+				<string>Decision testing considers the entire decision and evaluates the true and false out comes in seperate test cases while decision testing considers each and every atomic condition.</string>
+			</array>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>2.2_002</string>
+			<key>level</key>
+			<string>2</string>
+			<key>root</key>
+			<array>
+				<string>When should condition testing be applied?</string>
+			</array>
+			<key>options</key>
+			<array>
+				<array>
+					<string>Condition testing should be applied when the code being tested is important because of its advantages.</string>
+				</array>
+				<array>
+					<string>Condition testing is probably interesting in the abstract.</string>
+				</array>
+				<array>
+					<string>Understanding condition testing is not necessary because there are other coverage testing techniques that are more effective than it.</string>
+				</array>
+				<array>
+					<string>None of these above</string>
+				</array>
+			</array>
+			<key>right</key>
+			<array>
+				<integer>2</integer>
+			</array>
+			<key>explanation</key>
+			<array>
+				<string>Condition testing is probably interesting in the abstract rather than is applied because of its difficulties. However, understanding condition testing is necessary to understand other coverage testing techniques build upon it.</string>
+			</array>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>2.2_003</string>
+			<key>level</key>
+			<string>3</string>
+			<key>root</key>
+			<array>
+				<string>For a given sample of code, which of the following set of tests can achieve 100% condition coverage. Chose 3 options
+	if(A &amp; B){
+		print("A and B are TRUE")
+	}else{
+		print("A or B are FALSE")
+	}</string>
+			</array>
+			<key>options</key>
+			<array>
+				<array>
+					<string>Test 1: A = FALSE, B = TRUE
+Test 2: A = FALSE, B = FALSE</string>
+				</array>
+				<array>
+					<string>Test 1: A = TRUE, B = FALSE
+Test 2: A = FALSE, B = TRUE</string>
+				</array>
+				<array>
+					<string>Test 1: A = TRUE, B = TRUE
+Test 2: A = FALSE, B = FALSE</string>
+				</array>
+				<array>
+					<string>Test 1: A = FALSE, B = FALSE
+Test 2: A = TRUE, B = TRUE</string>
+				</array>
+				<array>
+					<string>Test 1: A = TRUE, B = FALSE
+Test 2: A = FALSE, B = FALSE</string>
+				</array>
+			</array>
+			<key>right</key>
+			<array>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+			</array>
+			<key>explanation</key>
+			<array>
+				<string>There are 2 atomic conditions in the decision predicate (A &amp; B), then 100% condition coverage can be achieved when each atomic condition evaluates as TRUE, and FALSE at least once.
+Test set (1) is missing case A=TRUE
+Test set (5) is missing case B=TRUE</string>
+			</array>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>2.2_004</string>
+			<key>level</key>
+			<string>1</string>
+			<key>root</key>
+			<array>
+				<string>Why condition testing is important?</string>
+			</array>
+			<key>options</key>
+			<array>
+				<array>
+					<string>Because it has lots of advantages.</string>
+				</array>
+				<array>
+					<string>Because it has lots of difficulties.</string>
+				</array>
+				<array>
+					<string>Because most effective coverage testing techniques are based on it</string>
+				</array>
+				<array>
+					<string>All of these above</string>
+				</array>
+			</array>
+			<key>right</key>
+			<array>
+				<integer>3</integer>
+			</array>
+			<key>explanation</key>
+			<array>
+				<string>Most effective coverage testing techniques are based condition testing: Condition testing, Decision Condition testing, Modified Condition/Decision Coverage (MC/DC) testing, Multiple Condition testing</string>
+			</array>
+		</dict>
+	</array>
+	<key>2.3</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<string>2.3_001</string>
+			<key>level</key>
+			<string>1</string>
+			<key>root</key>
+			<array>
+				<string>Which of the following is TRUE?</string>
+			</array>
+			<key>options</key>
+			<array>
+				<array>
+					<string>100% Decision Condition Coverage can guarantee 100% decicion coverage.</string>
+				</array>
+				<array>
+					<string>100% Decision Condition Coverage can guarantee 100% condition coverage.</string>
+				</array>
+				<array>
+					<string>100% Decision Condition Coverage can guarantee 100% decicion coverage and 100% condition coverage.</string>
+				</array>
+				<array>
+					<string>100% Decision Condition Coverage can guarantee 100% decicion coverage but not gurantee 100% condition coverage.</string>
+				</array>
+				<array>
+					<string>100% Decision Condition Coverage can guarantee 100% condition coverage but not gurantee 100% decicion coverage.</string>
+				</array>
+			</array>
+			<key>right</key>
+			<array>
+				<integer>3</integer>
+			</array>
+			<key>explanation</key>
+			<array>
+				<string>Decision Condition testing specifies that testing must achieve condition coverage, and also requires that decision coverage also be satisfied.</string>
+			</array>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>2.3_002</string>
+			<key>level</key>
+			<string>1</string>
+			<key>root</key>
+			<array>
+				<string>Difficulties when chosing decision consition testing?</string>
+			</array>
+			<key>options</key>
+			<array>
+				<array>
+					<string>It's hard to achieve 100% coverage because it need more tests than condition coverage.</string>
+				</array>
+				<array>
+					<string>It's hard to select tests for decision condition coverage.</string>
+				</array>
+				<array>
+					<string>It's hard to achieve 100% coverage because we have to achieve both 100% condition coverage and 100% desicion coverage.</string>
+				</array>
+				<array>
+					<string>It's hard to test under time pressure because it may need more tests than condition coverage or decision coverage.</string>
+				</array>
+			</array>
+			<key>right</key>
+			<array>
+				<integer>4</integer>
+			</array>
+			<key>explanation</key>
+			<array>
+				<string>Because it may require more test cases than testing to the decision level, it may be problematic when time is an issue.</string>
+			</array>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>2.3_003</string>
+			<key>level</key>
+			<string>1</string>
+			<key>root</key>
+			<array>
+				<string>When decision condition testing should be applied?</string>
+			</array>
+			<key>options</key>
+			<array>
+				<array>
+					<string>Decision condition testing should be applied when the code being tested is important</string>
+				</array>
+				<array>
+					<string>Decision condition testing should be applied when the code being tested is critical</string>
+				</array>
+				<array>
+					<string>Decision condition testing should be applied when the code being tested is either important or critical</string>
+				</array>
+				<array>
+					<string>Decision condition testing should not be applied when the code being tested is neither important nor critical</string>
+				</array>
+			</array>
+			<key>right</key>
+			<array>
+				<integer>1</integer>
+			</array>
+			<key>explanation</key>
+			<array>
+				<string>Decision condition coverage should be considered when the code being tested is important but not critical.</string>
+			</array>
+		</dict>
+	</array>
+	<key>2.4</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<string>2.4_001</string>
+			<key>level</key>
+			<string>1</string>
+			<key>root</key>
+			<array>
+				<string>Which of the following is not true about (MC/DC) Testing</string>
+			</array>
+			<key>options</key>
+			<array>
+				<array>
+					<string>MC/DC achieves Decision Condition coverage.</string>
+				</array>
+				<array>
+					<string>At least one test where the decision outcome would change if the atomic condition X were TRUE.</string>
+				</array>
+				<array>
+					<string>At least one test where the decision outcome would change if the atomic condition X were FALSE.</string>
+				</array>
+				<array>
+					<string>All of these above.</string>
+				</array>
+				<array>
+					<string>None of these above.</string>
+				</array>
+			</array>
+			<key>right</key>
+			<array>
+				<integer>4</integer>
+			</array>
+			<key>explanation</key>
+			<array>
+				<string>MC/DC achieves Decision Condition coverage, but then requires the following also be fulfilled:
+	1. At least one test where the decision outcome would change if the atomic condition X were TRUE
+	2. At least one test where the decision outcome would change if the atomic condition X were FALSE
+	3. Each different atomic condition has tests that meet requirements 1 and 2.</string>
+			</array>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>2.4_002</string>
+			<key>level</key>
+			<string>1</string>
+			<key>root</key>
+			<array>
+				<string>Which is true?</string>
+			</array>
+			<key>options</key>
+			<array>
+				<array>
+					<string>If there are N unique atomic conditions, MC/DC can usually be achieved in N unique test cases.</string>
+				</array>
+				<array>
+					<string>If there are N unique atomic conditions, MC/DC can usually be achieved in N-1 unique test cases.</string>
+				</array>
+				<array>
+					<string>If there are N unique atomic conditions, MC/DC can usually be achieved in N-2 unique test cases.</string>
+				</array>
+				<array>
+					<string>If there are N unique atomic conditions, MC/DC can usually be achieved in N+1 unique test cases.</string>
+				</array>
+				<array>
+					<string>If there are N unique atomic conditions, MC/DC can usually be achieved in N+2 unique test cases.</string>
+				</array>
+			</array>
+			<key>right</key>
+			<array>
+				<integer>4</integer>
+			</array>
+			<key>explanation</key>
+			<array>
+				<string>If there are N unique atomic conditions, MC/DC can usually be achieved in N+1 unique test cases.</string>
+			</array>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>2.2_003</string>
+			<key>level</key>
+			<string>2</string>
+			<key>root</key>
+			<array>
+				<string>When should MC/DC testing be applied?</string>
+			</array>
+			<key>options</key>
+			<array>
+				<array>
+					<string>MC/DC testing should be applied when the code being tested is important because of its advantages.</string>
+				</array>
+				<array>
+					<string>MC/DC testing is probably interesting in the abstract.</string>
+				</array>
+				<array>
+					<string>MC/DC testing should be applied when the code being tested is safety-critical.</string>
+				</array>
+				<array>
+					<string>None of these above</string>
+				</array>
+			</array>
+			<key>right</key>
+			<array>
+				<integer>3</integer>
+			</array>
+			<key>explanation</key>
+			<array>
+				<string>MC/DC testing technique is used extensively in the aerospace software industry and many other safety-critical systems. It should be used when dealing with safety critical software where any failure may cause a catastrophe.</string>
+			</array>
+		</dict>
+	</array>
+	<key>2.5</key>
+	<array/>
+	<key>2.6</key>
+	<array/>
+	<key>2.7</key>
+	<array/>
+	<key>2.8</key>
+	<array/>
+	<key>3.1</key>
+	<array/>
+	<key>3.2</key>
+	<array/>
+	<key>3.2.1</key>
+	<array/>
+	<key>3.2.2</key>
+	<array/>
+	<key>3.2.3</key>
+	<array/>
+	<key>3.2.4</key>
+	<array/>
+	<key>3.3</key>
+	<array/>
+	<key>3.3.1</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<string>3.3.1_001</string>
+			<key>level</key>
+			<string>1</string>
+			<key>root</key>
+			<array>
+				<string>Which is TRUE?</string>
+			</array>
+			<key>options</key>
+			<array>
+				<array>
+					<string>Dynamic analysis is used to detect failures where the symptoms may not be immediately visible.</string>
+				</array>
+				<array>
+					<string>Dynamic analysis is used to detect failures where the symptoms is immediately visible.</string>
+				</array>
+				<array>
+					<string>Static analysis is used to detect failures where the symptoms may not be immediately visible.</string>
+				</array>
+				<array>
+					<string>Static analysis is used to detect failures where the symptoms is immediately visible.</string>
+				</array>
+			</array>
+			<key>right</key>
+			<array>
+				<integer>1</integer>
+			</array>
+			<key>explanation</key>
+			<array>
+				<string>Dynamic analysis is used to detect failures where the symptoms may not be immediately visible.</string>
+			</array>
+		</dict>
+	</array>
+
+	<key>3.3.2</key>
+	<array/>
+	<key>3.3.3</key>
+	<array/>
+	<key>3.3.4</key>
+	<array/>
+	<key>4.1</key>
+	<array/>
+	<key>4.2</key>
+	<array/>
+	<key>4.2.1</key>
+	<array/>
+	<key>4.2.2</key>
+	<array/>
+	<key>4.2.3</key>
+	<array/>
+	<key>4.2.4</key>
+	<array/>
+	<key>4.2.5</key>
+	<array/>
+	<key>4.3</key>
+	<array/>
+	<key>4.3.1</key>
+	<array/>
+	<key>4.3.2</key>
+	<array/>
+	<key>4.3.3</key>
+	<array/>
+	<key>4.4</key>
+	<array/>
+	<key>4.4.1</key>
+	<array/>
+	<key>4.4.2</key>
+	<array/>
+	<key>4.4.3</key>
+	<array/>
+	<key>4.4.4</key>
+	<array/>
+	<key>4.4.5</key>
+	<array/>
+	<key>4.5</key>
+	<array/>
+	<key>4.5.1</key>
+	<array/>
+	<key>4.5.2</key>
+	<array/>
+	<key>4.5.3</key>
+	<array/>
+	<key>4.5.4</key>
+	<array/>
+	<key>4.6</key>
+	<array/>
+	<key>4.7</key>
+	<array/>
+	<key>4.7.1</key>
+	<array/>
+	<key>4.8</key>
+	<array/>
+	<key>4.8.1</key>
+	<array/>
+	<key>4.8.2</key>
+	<array/>
+	<key>4.8.3</key>
+	<array/>
+	<key>4.8.4</key>
+	<array/>
+	<key>5.1</key>
+	<array/>
+	<key>5.2</key>
+	<array/>
+	<key>5.2.1</key>
+	<array/>
+	<key>5.2.2</key>
+	<array/>
+	<key>6.1</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<string>6.1_001</string>
+			<key>level</key>
+			<string>1</string>
+			<key>root</key>
+			<array>
+				<string>Who is responsible for selecting and integrating tools?</string>
+			</array>
+			<key>options</key>
+			<array>				
+				<array>
+					<string>The Test Manager</string>
+				</array>
+				<array>
+					<string>The Technical Test Analyst</string>
+				</array>
+				<array>
+					<string>The Test Analyst</string>
+				</array>
+				<array>
+					<string>None of them</string>
+				</array>
+			</array>
+			<key>right</key>
+			<array>
+				<integer>1</integer>
+			</array>
+			<key>explanation</key>
+			<array>
+				<string>While the responsibility for selecting and integrating tools belongs to the Test Manager.</string>
+			</array>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>6.1_002</string>
+			<key>level</key>
+			<string>1</string>
+			<key>root</key>
+			<array>
+				<string>Which of the following tasks belong to the Technical Test Analyst? Chose 3 options</string>
+			</array>
+			<key>options</key>
+			<array>
+				<array>
+					<string>Review the integration of a tool or set of tools</string>
+				</array>
+				<array>
+					<string>Determine which test tools should be used</string>
+				</array>
+				<array>
+					<string>Estimate time and resource</string>
+				</array>
+				<array>
+					<string>Ensure accurate tracking of data resulting from various testing areas</string>
+				</array>
+				<array>
+					<string>Create the code that will integrate tools together that do not integrate “out of the box”</string>
+				</array>
+			</array>
+			<key>right</key>
+			<array>
+				<integer>1</integer>
+				<integer>4</integer>
+				<integer>5</integer>
+			</array>
+			<key>explanation</key>
+			<array>
+				<string></string>
+			</array>
+		</dict>
+	</array>
+	<key>6.2</key>
+	<array/>
+	<key>6.2.1</key>
+	<array/>
+	<key>6.2.2</key>
+	<array/>
+	<key>6.3</key>
+	<array/>
+	<key>6.3.1</key>
+	<array/>
+	<key>6.3.2</key>
+	<array/>
+	<key>6.3.3</key>
+	<array/>
+	<key>6.3.4</key>
+	<array/>
+	<key>6.3.5</key>
+	<array/>
+</dict>
+</plist>

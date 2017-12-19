@@ -26,7 +26,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import com.nfl.model.GameSnapShot;
 import com.nfl.utils.Global;
 
-public class ExcelReport {
+public class NflDataExporter {
 
 	private static final String REPORT_TEMPLATE = "template.xlsx";
 
@@ -57,7 +57,7 @@ public class ExcelReport {
 
 	public static String reportFile;
 
-	public ExcelReport(Map<String, List<GameSnapShot>> jsonFileToGamechipsMap, List<String> fileNames) {
+	public NflDataExporter(Map<String, List<GameSnapShot>> jsonFileToGamechipsMap, List<String> fileNames) {
 		this.jsonFileToGamechipsMap = jsonFileToGamechipsMap;
 		this.fileNames = fileNames;
 	}
