@@ -1,7 +1,13 @@
-package com.istqb.model;
+package com.data.model.istqb;
 
 import java.util.List;
 
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlType;
+
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlType( propOrder = { "dict" })
 public class Questions {
 	private List<Question> dict;
 

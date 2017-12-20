@@ -1,16 +1,20 @@
-package com.istqb.model;
+package com.data.model.istqb;
 
 import java.util.List;
 
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlType;
 
-@XmlRootElement
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(name = "", propOrder = { "session" })
+@XmlRootElement(name = "dict")
 public class QuestionBank {
 	private List<Session> session;
 
 	public QuestionBank() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	public QuestionBank(List<Session> session) {

@@ -1,4 +1,4 @@
-package com.nfl.report;
+package com.data.exporter;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -23,8 +23,8 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import com.nfl.model.GameSnapShot;
-import com.nfl.utils.Global;
+import com.data.model.nfl.GameSnapShot;
+import com.data.utils.Global;
 
 public class NflDataExporter {
 
@@ -49,8 +49,6 @@ public class NflDataExporter {
 	
 	private List<GameSnapShot> gamechips;
 	private GameSnapShot gamechip;
-	private String temp = "";
-	private File img;
 
 	private CellStyle cellStyleNormal;
 	private CellStyle cellStyleGreen;

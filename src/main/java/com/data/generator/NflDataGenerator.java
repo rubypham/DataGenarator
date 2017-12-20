@@ -1,11 +1,11 @@
-package com.nfl.generate;
+package com.data.generator;
 
 import java.util.List;
 import java.util.Map;
 
-import com.nfl.model.GameSnapShot;
-import com.nfl.reader.JsonReader;
-import com.nfl.report.NflDataExporter;
+import com.data.exporter.NflDataExporter;
+import com.data.model.nfl.GameSnapShot;
+import com.data.reader.JsonReader;
 
 public class NflDataGenerator {
 

@@ -1,4 +1,4 @@
-package com.nfl.model;
+package com.data.model.nfl;
 
 import java.util.ArrayList;
 import java.util.List;

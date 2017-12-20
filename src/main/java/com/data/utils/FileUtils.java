@@ -12,7 +12,7 @@
  * agreement, nondisclosure agreement or contract entered into with 
  * DIRECTV providing access to this software.
  */
-package com.nfl.utils;
+package com.data.utils;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

@@ -1,4 +1,4 @@
-package com.nfl.model;
+package com.data.model.nfl;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

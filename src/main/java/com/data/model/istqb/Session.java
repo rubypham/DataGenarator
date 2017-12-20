@@ -1,5 +1,11 @@
-package com.istqb.model;
+package com.data.model.istqb;
 
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlType;
+
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlType( propOrder = { "key", "array" })
 public class Session {
 	private String key;
 	private Questions array;

@@ -1,4 +1,4 @@
-package com.nfl.reader;
+package com.data.reader;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -10,12 +10,12 @@ import java.util.Set;
 
 import javax.xml.bind.JAXBContext;
 
+import com.data.model.nfl.GameSnapShot;
+import com.data.model.nfl.NflData;
+import com.data.model.nfl.Scores;
+import com.data.utils.FileUtils;
+import com.data.utils.Global;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.nfl.model.GameSnapShot;
-import com.nfl.model.NflData;
-import com.nfl.model.Scores;
-import com.nfl.utils.FileUtils;
-import com.nfl.utils.Global;
 
 public class JsonReader {
 	private Map<String, List<GameSnapShot>> jsonToListGamechip;

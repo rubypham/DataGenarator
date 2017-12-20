@@ -1,4 +1,4 @@
-package com.nfl.model;
+package com.data.model.nfl;
 
 public class KickoffDate {
 	private String _GMT;
