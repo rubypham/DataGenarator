@@ -10,7 +10,7 @@ import javax.xml.bind.annotation.XmlType;
 import javax.xml.bind.annotation.XmlValue;
 
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(propOrder = { "optionA", "optionB", "optionC", "optionD", "optionE" })
+@XmlType(propOrder = { "optionA", "optionB", "optionC", "optionD",  })
 public class Options {
 	@XmlElement(name = "array")
 	private Paragraph optionA;
@@ -20,8 +20,9 @@ public class Options {
 	private Paragraph optionC;
 	@XmlElement(name = "array")
 	private Paragraph optionD;
-	@XmlElement(name = "array")
-	private Paragraph optionE;
+	
+//	@XmlElement(name = "array", nillable = false)
+	private transient Paragraph optionE;
 
 	public Options() {
 		super();

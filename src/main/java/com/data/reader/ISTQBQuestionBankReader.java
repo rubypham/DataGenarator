@@ -123,7 +123,7 @@ public class ISTQBQuestionBankReader {
 
 	private String readCell(int col) {
 		Cell cell = row.getCell(col);
-		String result=null;
+		String result = "";
 
 		switch (cell.getCellType()) {
 		case Cell.CELL_TYPE_STRING:
@@ -145,9 +145,9 @@ public class ISTQBQuestionBankReader {
 		sessionId = readCell(COL_SESSION);
 		question.setSessionId(sessionId);
 
-		question.setId(sessionId + "_" + readCell(COL_ID));
+		question.setId( createQuestionId(sessionId+ readCell(COL_ID)));
 
-		question.setLevel(readCell(COL_LEVEL));
+		question.setLevel(Utils.toInt(readCell(COL_LEVEL)));
 
 		question.setRoot(createStringParagraph(COL_STEM_PART));
 
@@ -157,6 +157,11 @@ public class ISTQBQuestionBankReader {
 
 		question.setExplanation(createStringParagraph(COL_EXPLAINATION));
 
+	}
+
+
+	private String createQuestionId(String value) {
+		return value.replace(".", "");
 	}
 
 	private Options createoptions() {

@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dict>
+    <session>
+        <key>0.0</key>
+        <array>
+            <dict>
+                <key>id</key>
+                <string>0.0_1.0</string>
+                <key>level</key>
+                <string>2.0</string>
+                <key>root</key>
+                <array>
+                    <string>‘Bebugging’  is known as</string>
+                </array>
+                <key>options</key>
+                <options>
+                    <array>
+                        <string>Preventing the defects by inspection</string>
+                    </array>
+                    <array>
+                        <string>Fixing the defects by debugging</string>
+                    </array>
+                    <array>
+                        <string>Adding known defects by seeding</string>
+                    </array>
+                    <array>
+                        <string>A process of fixing the defects by tester</string>
+                    </array>
+                </options>
+                <key>right</key>
+                <right>
+                    <integer>3</integer>
+                </right>
+                <key>explanation</key>
+                <explanation>
+                    <string>Glossary page 9
+= fault seeding, error seeding
+The process of intentionally adding known defects to those already in the component or system for the purpose of monitoring the rate of detection and removal, and estimating the number of remaining defects. [IEEE 610]</string>
+                </explanation>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>0.0_2.0</string>
+                <key>level</key>
+                <string>1.0</string>
+                <key>root</key>
+                <array>
+                    <string>‘Defect Density’  calculated in terms of</string>
+                </array>
+                <key>options</key>
+                <options>
+                    <array>
+                        <string>The number of defects identified in a component or system divided by the size of the component or the system</string>
+                    </array>
+                    <array>
+                        <string>The number of defects found by a test phase divided by the number found by that test phase and any other means after wards</string>
+                    </array>
+                    <array>
+                        <string>The number of defects identified in the component or system divided by the number of defects found by a test phase</string>
+                    </array>
+                    <array>
+                        <string>The number of defects found by a test phase divided by the number found by the size of the system</string>
+                    </array>
+                </options>
+                <key>right</key>
+                <right>
+                    <integer>1</integer>
+                </right>
+                <key>explanation</key>
+                <explanation>
+                    <string>Glossary page 15</string>
+                </explanation>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>0.0_3.0</string>
+                <key>level</key>
+                <key>root</key>
+                <array>
+                    <string>An expert based test estimation is also known as</string>
+                </array>
+                <key>options</key>
+                <options>
+                    <array>
+                        <string>Narrow band Delphi</string>
+                    </array>
+                    <array>
+                        <string>Wide band Delphi </string>
+                    </array>
+                    <array>
+                        <string>Bespoke Delphi</string>
+                    </array>
+                    <array>
+                        <string>Robust Delphi</string>
+                    </array>
+                </options>
+                <key>right</key>
+                <right>
+                    <integer>2</integer>
+                </right>
+                <key>explanation</key>
+                <explanation>
+                    <string>Glossary page 40
+Wide Band Delphi: An expert based test estimation technique that aims at making an accurate estimation using the collective wisdom of the team members.</string>
+                </explanation>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>0.0_4.0</string>
+                <key>level</key>
+                <string>1.0</string>
+                <key>root</key>
+                <array>
+                    <string>Cause effect graphing is related to the standard</string>
+                </array>
+                <key>options</key>
+                <options>
+                    <array>
+                        <string>BS 7799 </string>
+                    </array>
+                    <array>
+                        <string>BS 7925/2</string>
+                    </array>
+                    <array>
+                        <string>ISO/IEC 926/1</string>
+                    </array>
+                    <array>
+                        <string>ISO/IEC 2382/1</string>
+                    </array>
+                </options>
+                <key>right</key>
+                <right>
+                    <integer>2</integer>
+                </right>
+                <key>explanation</key>
+                <explanation>
+                    <string>Glossary page 8
+cause-effect graphing
+Ref: BS 7925/2
+Synonyms: cause-effect analysis
+A black-box test design technique in which test cases are designed from cause-effect graphs.</string>
+                </explanation>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>0.0_5.0</string>
+                <key>level</key>
+                <key>root</key>
+                <array>
+                    <string>Defect arrival rate curve:</string>
+                </array>
+                <key>options</key>
+                <options>
+                    <array>
+                        <string>Shows the number of newly discovered defects per unit time</string>
+                    </array>
+                    <array>
+                        <string>Shows the number of open defects per unit time.</string>
+                    </array>
+                    <array>
+                        <string>Shows the cumulative total number of defects found up to this time.</string>
+                    </array>
+                    <array>
+                        <string>Any of these, depending on the company</string>
+                    </array>
+                </options>
+                <key>right</key>
+                <right>
+                    <integer>1</integer>
+                </right>
+                <key>explanation</key>
+                <explanation>
+                    <string xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </explanation>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>0.0_6.0</string>
+                <key>level</key>
+                <key>root</key>
+                <array>
+                    <string>FPA is used to</string>
+                </array>
+                <key>options</key>
+                <options>
+                    <array>
+                        <string>To measure the functional requirements of the project</string>
+                    </array>
+                    <array>
+                        <string>To measure the size of the functionality of an Information system</string>
+                    </array>
+                    <array>
+                        <string>To measure the functional testing effort</string>
+                    </array>
+                    <array>
+                        <string>To measure the functional flow</string>
+                    </array>
+                </options>
+                <key>right</key>
+                <right>
+                    <integer>2</integer>
+                </right>
+                <key>explanation</key>
+                <explanation>
+                    <string xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </explanation>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>0.0_7.0</string>
+                <key>level</key>
+                <key>root</key>
+                <array>
+                    <string>From the below given choices, which one is the ‘Confidence testing’</string>
+                </array>
+                <key>options</key>
+                <options>
+                    <array>
+                        <string>Sanity testing</string>
+                    </array>
+                    <array>
+                        <string>System testing</string>
+                    </array>
+                    <array>
+                        <string>Smoke testing </string>
+                    </array>
+                    <array>
+                        <string>Regression testing</string>
+                    </array>
+                </options>
+                <key>right</key>
+                <right>
+                    <integer>3</integer>
+                </right>
+                <key>explanation</key>
+                <explanation>
+                    <string>Other call of moke test :
+confidence test
+intake test --&gt; 1 instance of smoke test
+sanity test</string>
+                </explanation>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>0.0_8.0</string>
+                <key>level</key>
+                <key>root</key>
+                <array>
+                    <string>In the MASPAR case study:</string>
+                </array>
+                <key>options</key>
+                <options>
+                    <array>
+                        <string>Security failures were the result of untested parts of code.</string>
+                    </array>
+                    <array>
+                        <string>The development team achieved complete statement and branch coverage but missed a serious bug in the MASPAR operating system.</string>
+                    </array>
+                    <array>
+                        <string>An error in the code was so obscure that you had to test the function with almost every input value to find its two special-case failures.</string>
+                    </array>
+                    <array>
+                        <string>All of the above.</string>
+                    </array>
+                </options>
+                <key>right</key>
+                <right>
+                    <integer>3</integer>
+                </right>
+                <key>explanation</key>
+                <explanation>
+                    <string xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </explanation>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>0.0_9.0</string>
+                <key>level</key>
+                <string>1.0</string>
+                <key>root</key>
+                <array>
+                    <string>Item transmittal report is also known as</string>
+                </array>
+                <key>options</key>
+                <options>
+                    <array>
+                        <string>Incident report</string>
+                    </array>
+                    <array>
+                        <string>Release note</string>
+                    </array>
+                    <array>
+                        <string>Review report</string>
+                    </array>
+                    <array>
+                        <string>Audit report</string>
+                    </array>
+                </options>
+                <key>right</key>
+                <right>
+                    <integer>3</integer>
+                </right>
+                <key>explanation</key>
+                <explanation>
+                    <string>Glossary page 49
+release note
+Ref: After IEEE 829
+Synonyms: item transmittal report, test item transmittal report
+A document identifying test items, their configuration, current status and other delivery
+information delivered by development to testing, and possibly other stakeholders, at the start of
+a test execution phase.</string>
+                </explanation>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>0.0_10.0</string>
+                <key>level</key>
+                <key>root</key>
+                <array>
+                    <string>Operations testing is (Performing Test)</string>
+                </array>
+                <key>options</key>
+                <options>
+                    <array>
+                        <string>compliance testing</string>
+                    </array>
+                    <array>
+                        <string>disaster testing</string>
+                    </array>
+                    <array>
+                        <string>verifying compliance to rules</string>
+                    </array>
+                    <array>
+                        <string>functional testing</string>
+                    </array>
+                </options>
+                <key>right</key>
+                <right>
+                    <integer>5</integer>
+                </right>
+                <key>explanation</key>
+                <explanation>
+                    <string xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </explanation>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>0.0_11.0</string>
+                <key>level</key>
+                <key>root</key>
+                <array>
+                    <string>Security falls under (Performing Test)</string>
+                </array>
+                <key>options</key>
+                <options>
+                    <array>
+                        <string>compliance testing</string>
+                    </array>
+                    <array>
+                        <string>disaster testing</string>
+                    </array>
+                    <array>
+                        <string>verifying compliance to rules</string>
+                    </array>
+                    <array>
+                        <string>functional testing</string>
+                    </array>
+                </options>
+                <key>right</key>
+                <right>
+                    <integer>1</integer>
+                </right>
+                <key>explanation</key>
+                <explanation>
+                    <string xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </explanation>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>0.0_12.0</string>
+                <key>level</key>
+                <key>root</key>
+                <array>
+                    <string>The standard that gives definitions of testing terms is:</string>
+                </array>
+                <key>options</key>
+                <options>
+                    <array>
+                        <string>ISO/IEC 12207</string>
+                    </array>
+                    <array>
+                        <string>BS 7925-1</string>
+                    </array>
+                    <array>
+                        <string>ANSI/IEEE 829</string>
+                    </array>
+                    <array>
+                        <string>ANSI/IEEE 729</string>
+                    </array>
+                </options>
+                <key>right</key>
+                <right>
+                    <integer>2</integer>
+                </right>
+                <key>explanation</key>
+                <explanation>
+                    <string xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </explanation>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>0.0_13.0</string>
+                <key>level</key>
+                <key>root</key>
+                <array>
+                    <string>The standard that gives definitions of testing terms is:</string>
+                </array>
+                <key>options</key>
+                <options>
+                    <array>
+                        <string>ISO/IEC 12207</string>
+                    </array>
+                    <array>
+                        <string>BS7925-1</string>
+                    </array>
+                    <array>
+                        <string>BS7925-2</string>
+                    </array>
+                    <array>
+                        <string>ANSI/IEEE 829</string>
+                    </array>
+                </options>
+                <key>right</key>
+                <right>
+                    <integer>2</integer>
+                </right>
+                <key>explanation</key>
+                <explanation>
+                    <string xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </explanation>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>0.0_14.0</string>
+                <key>level</key>
+                <key>root</key>
+                <array>
+                    <string>What is the concept of introducing a small change to the program and having the effects of that change show up in some test?</string>
+                </array>
+                <key>options</key>
+                <options>
+                    <array>
+                        <string>Introducing mutations</string>
+                    </array>
+                    <array>
+                        <string>Performance testing</string>
+                    </array>
+                    <array>
+                        <string>A mutation error</string>
+                    </array>
+                    <array>
+                        <string>Debugging a program</string>
+                    </array>
+                </options>
+                <key>right</key>
+                <right>
+                    <integer>1</integer>
+                </right>
+                <key>explanation</key>
+                <explanation>
+                    <string xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </explanation>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>0.0_15.0</string>
+                <key>level</key>
+                <key>root</key>
+                <array>
+                    <string>What is the concept of introducing a small change to the program and having the effects of that change show up in some test? (Testing concepts)</string>
+                </array>
+                <key>options</key>
+                <options>
+                    <array>
+                        <string>Desk checking</string>
+                    </array>
+                    <array>
+                        <string>Debugging a program</string>
+                    </array>
+                    <array>
+                        <string>A mutation error</string>
+                    </array>
+                    <array>
+                        <string>Performance testing</string>
+                    </array>
+                </options>
+                <key>right</key>
+                <right>
+                    <integer>5</integer>
+                </right>
+                <key>explanation</key>
+                <explanation>
+                    <string xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </explanation>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>0.0_16.0</string>
+                <key>level</key>
+                <string>1.0</string>
+                <key>root</key>
+                <array>
+                    <string>Which is not a test Oracle</string>
+                </array>
+                <key>options</key>
+                <options>
+                    <array>
+                        <string>The existing system (For a bench mark)</string>
+                    </array>
+                    <array>
+                        <string>The code</string>
+                    </array>
+                    <array>
+                        <string>Individual’s knowledge</string>
+                    </array>
+                    <array>
+                        <string>User manual</string>
+                    </array>
+                </options>
+                <key>right</key>
+                <right>
+                    <integer>2</integer>
+                </right>
+                <key>explanation</key>
+                <explanation>
+                    <string xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </explanation>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>0.0_17.0</string>
+                <key>level</key>
+                <key>root</key>
+                <array>
+                    <string>Which of the following is NOT a standard related to testing?</string>
+                </array>
+                <key>options</key>
+                <options>
+                    <array>
+                        <string>IEEE829</string>
+                    </array>
+                    <array>
+                        <string>IEEE610</string>
+                    </array>
+                    <array>
+                        <string>BS7925-1</string>
+                    </array>
+                    <array>
+                        <string>BS7925-2</string>
+                    </array>
+                </options>
+                <key>right</key>
+                <right>
+                    <integer>2</integer>
+                </right>
+                <key>explanation</key>
+                <explanation>
+                    <string xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </explanation>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>0.0_18.0</string>
+                <key>level</key>
+                <key>root</key>
+                <array>
+                    <string>Which of the following is the component test standard?</string>
+                </array>
+                <key>options</key>
+                <options>
+                    <array>
+                        <string>IEEE 829</string>
+                    </array>
+                    <array>
+                        <string>IEEE 610</string>
+                    </array>
+                    <array>
+                        <string>BS7925-1</string>
+                    </array>
+                    <array>
+                        <string>BS7925-2</string>
+                    </array>
+                </options>
+                <key>right</key>
+                <right>
+                    <integer>4</integer>
+                </right>
+                <key>explanation</key>
+                <explanation>
+                    <string xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </explanation>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>0.0_19.0</string>
+                <key>level</key>
+                <string>1.0</string>
+                <key>root</key>
+                <array>
+                    <string>Which of the following is the standard for the Software product quality</string>
+                </array>
+                <key>options</key>
+                <options>
+                    <array>
+                        <string>ISO 9126 </string>
+                    </array>
+                    <array>
+                        <string>ISO 829 </string>
+                    </array>
+                    <array>
+                        <string>ISO 1012 </string>
+                    </array>
+                    <array>
+                        <string>ISO 1028</string>
+                    </array>
+                </options>
+                <key>right</key>
+                <right>
+                    <integer>1</integer>
+                </right>
+                <key>explanation</key>
+                <explanation>
+                    <string xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </explanation>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>0.0_20.0</string>
+                <key>level</key>
+                <key>root</key>
+                <array>
+                    <string>… and … are used within individual workbenches to produce the right output products.</string>
+                </array>
+                <key>options</key>
+                <options>
+                    <array>
+                        <string>Tools and techniques</string>
+                    </array>
+                    <array>
+                        <string>Procedures and standards</string>
+                    </array>
+                    <array>
+                        <string>Processes and walkthroughs</string>
+                    </array>
+                    <array>
+                        <string>Reviews and update</string>
+                    </array>
+                </options>
+                <key>right</key>
+                <right>
+                    <integer>2</integer>
+                </right>
+                <key>explanation</key>
+                <explanation>
+                    <string xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </explanation>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>0.0_21.0</string>
+                <key>level</key>
+                <key>root</key>
+                <array>
+                    <string>Measurement dysfunction is a problem because:</string>
+                </array>
+                <key>options</key>
+                <options>
+                    <array>
+                        <string>Even though the numbers you look at appear better, to achieve these numbers, people are doing other aspects of their work much less well.</string>
+                    </array>
+                    <array>
+                        <string>We don't know how to measure a variable (our measurement is dysfunctional) and so we don't know how to interpret the result.</string>
+                    </array>
+                    <array>
+                        <string>You are measuring the wrong thing and thus reaching the wrong conclusions.</string>
+                    </array>
+                    <array>
+                        <string>All of the above.</string>
+                    </array>
+                </options>
+                <key>right</key>
+                <right>
+                    <integer>1</integer>
+                </right>
+                <key>explanation</key>
+                <explanation>
+                    <string xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </explanation>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>0.0_22.0</string>
+                <key>level</key>
+                <key>root</key>
+                <array>
+                    <string>PDCA is known as</string>
+                </array>
+                <key>options</key>
+                <options>
+                    <array>
+                        <string>Plan, Do, Check, Act</string>
+                    </array>
+                    <array>
+                        <string>Plan, Do, Correct, Act</string>
+                    </array>
+                    <array>
+                        <string>Plan, Debug, Check, Act</string>
+                    </array>
+                    <array>
+                        <string>Plan, Do, Check, Accept</string>
+                    </array>
+                </options>
+                <key>right</key>
+                <right>
+                    <integer>1</integer>
+                </right>
+                <key>explanation</key>
+                <explanation>
+                    <string xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </explanation>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>0.0_23.0</string>
+                <key>level</key>
+                <key>root</key>
+                <array>
+                    <string>The primary goal of comparing a user manual with the actual behavior of the running program during system testing is to</string>
+                </array>
+                <key>options</key>
+                <options>
+                    <array>
+                        <string>Find bugs in the program</string>
+                    </array>
+                    <array>
+                        <string>Check the technical accuracy of the document</string>
+                    </array>
+                    <array>
+                        <string>Ensure the ease of use of the document</string>
+                    </array>
+                    <array>
+                        <string>Ensure that the program is the latest version</string>
+                    </array>
+                </options>
+                <key>right</key>
+                <right>
+                    <integer>2</integer>
+                </right>
+                <key>explanation</key>
+                <explanation>
+                    <string xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </explanation>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>0.0_24.0</string>
+                <key>level</key>
+                <key>root</key>
+                <array>
+                    <string>Which is not the software characteristics</string>
+                </array>
+                <key>options</key>
+                <options>
+                    <array>
+                        <string>Reliability</string>
+                    </array>
+                    <array>
+                        <string>Usability</string>
+                    </array>
+                    <array>
+                        <string>Scalability</string>
+                    </array>
+                    <array>
+                        <string>Maintainability</string>
+                    </array>
+                </options>
+                <key>right</key>
+                <right>
+                    <integer>3</integer>
+                </right>
+                <key>explanation</key>
+                <explanation>
+                    <string xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </explanation>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>0.0_25.0</string>
+                <key>level</key>
+                <key>root</key>
+                <array>
+                    <string>Which of the following characteristics is primarily associated with software re- usability?</string>
+                </array>
+                <key>options</key>
+                <options>
+                    <array>
+                        <string>The extent to which the software can be used in other applications</string>
+                    </array>
+                    <array>
+                        <string>The extent to which the software can be used by many different users</string>
+                    </array>
+                    <array>
+                        <string>The capability of the software to be moved to a different platform</string>
+                    </array>
+                    <array>
+                        <string>The capability of one system to be coupled with another system</string>
+                    </array>
+                </options>
+                <key>right</key>
+                <right>
+                    <integer>1</integer>
+                </right>
+                <key>explanation</key>
+                <explanation>
+                    <string xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </explanation>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>0.0_26.0</string>
+                <key>level</key>
+                <key>root</key>
+                <array>
+                    <string>Which of the following functions is typically supported by a software quality information system?
+I. Record keeping
+II. System design
+III. Evaluation scheduling
+IV. Error reporting</string>
+                </array>
+                <key>options</key>
+                <options>
+                    <array>
+                        <string>I, II&amp;III</string>
+                    </array>
+                    <array>
+                        <string>II, III &amp;IV</string>
+                    </array>
+                    <array>
+                        <string>I, III &amp;IV</string>
+                    </array>
+                    <array>
+                        <string>I, II &amp; IV</string>
+                    </array>
+                </options>
+                <key>right</key>
+                <right>
+                    <integer>3</integer>
+                </right>
+                <key>explanation</key>
+                <explanation>
+                    <string xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </explanation>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>0.0_27.0</string>
+                <key>level</key>
+                <key>root</key>
+                <array>
+                    <string>Which of the following is a requirement of an effective software environment?
+I. Ease of use
+II. Capacity for incremental implementation
+III. Capability of evolving with the needs of a project
+IV. Inclusion of advanced tools </string>
+                </array>
+                <key>options</key>
+                <options>
+                    <array>
+                        <string>I, II &amp;III</string>
+                    </array>
+                    <array>
+                        <string>I, II &amp;IV</string>
+                    </array>
+                    <array>
+                        <string>II, III&amp;IV</string>
+                    </array>
+                    <array>
+                        <string>I, III&amp;IV</string>
+                    </array>
+                </options>
+                <key>right</key>
+                <right>
+                    <integer>1</integer>
+                </right>
+                <key>explanation</key>
+                <explanation>
+                    <string xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </explanation>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>0.0_28.0</string>
+                <key>level</key>
+                <key>root</key>
+                <array>
+                    <string>Which of the following statements about early test design are true and which are false?
+1. Defects found during early test design are more expensive to fix
+2. Early test design can find defects
+3. Early test design can cause to the changes to the requirements
+4. Early test design can takes more effort</string>
+                </array>
+                <key>options</key>
+                <options>
+                    <array>
+                        <string>1 and 3 are true; 2 and 4 are false.</string>
+                    </array>
+                    <array>
+                        <string>2 is true; 1, 3 and 4 are false.</string>
+                    </array>
+                    <array>
+                        <string>2 and 3 are true; 1 and 4 are false.</string>
+                    </array>
+                    <array>
+                        <string>2, 3, and 4 are true; 1 is false</string>
+                    </array>
+                </options>
+                <key>right</key>
+                <right>
+                    <integer>3</integer>
+                </right>
+                <key>explanation</key>
+                <explanation>
+                    <string xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </explanation>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>0.0_29.0</string>
+                <key>level</key>
+                <key>root</key>
+                <array>
+                    <string>Which of the following statements is true about a software verification and validation program?
+I. It strives to ensure that quality is built into software.
+II. It provides management with insights into the state of a software project.
+III. It ensures that alpha, beta, and system tests are performed.
+IV. It is executed in parallel with software development activities.</string>
+                </array>
+                <key>options</key>
+                <options>
+                    <array>
+                        <string>I, II&amp;III</string>
+                    </array>
+                    <array>
+                        <string>II, III&amp;IV</string>
+                    </array>
+                    <array>
+                        <string>I, II&amp;IV</string>
+                    </array>
+                    <array>
+                        <string>I, III&amp;IV</string>
+                    </array>
+                </options>
+                <key>right</key>
+                <right>
+                    <integer>3</integer>
+                </right>
+                <key>explanation</key>
+                <explanation>
+                    <string xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </explanation>
+            </dict>
+        </array>
+    </session>
+    <session>
+        <key>1.1</key>
+        <array>
+            <dict>
+                <key>id</key>
+                <string>1.1_30.0</string>
+                <key>level</key>
+                <string>1.0</string>
+                <key>root</key>
+                <array>
+                    <string>A bug or defect is:</string>
+                </array>
+                <key>options</key>
+                <options>
+                    <array>
+                        <string>A mistake made by a person;</string>
+                    </array>
+                    <array>
+                        <string>A run-time problem experienced by a user;</string>
+                    </array>
+                    <array>
+                        <string>The result of an error or mistake;</string>
+                    </array>
+                    <array>
+                        <string>The result of a failure, which may lead to an error?</string>
+                    </array>
+                </options>
+                <key>right</key>
+                <right>
+                    <integer>3</integer>
+                </right>
+                <key>explanation</key>
+                <explanation>
+                    <string xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </explanation>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>1.1_31.0</string>
+                <key>level</key>
+                <string>2.0</string>
+                <key>root</key>
+                <array>
+                    <string>A deviation from the specified or expected behavior that is visible to end-users  is called:</string>
+                </array>
+                <key>options</key>
+                <options>
+                    <array>
+                        <string>An error </string>
+                    </array>
+                    <array>
+                        <string>A Mistake</string>
+                    </array>
+                    <array>
+                        <string>A failure</string>
+                    </array>
+                    <array>
+                        <string>A defect</string>
+                    </array>
+                </options>
+                <key>right</key>
+                <right>
+                    <integer>3</integer>
+                </right>
+                <key>explanation</key>
+                <explanation>
+                    <string xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </explanation>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>1.1_32.0</string>
+                <key>level</key>
+                <key>root</key>
+                <array>
+                    <string>A error is:</string>
+                </array>
+                <key>options</key>
+                <options>
+                    <array>
+                        <string>Found in the software; the result of an error</string>
+                    </array>
+                    <array>
+                        <string>Departure from specified behavior</string>
+                    </array>
+                    <array>
+                        <string>Deviation of the software from its expected delivery or service</string>
+                    </array>
+                    <array>
+                        <string>A human action that produces an incorrect result</string>
+                    </array>
+                </options>
+                <key>right</key>
+                <right>
+                    <integer>4</integer>
+                </right>
+                <key>explanation</key>
+                <explanation>
+                    <string xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </explanation>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>1.1_33.0</string>
+                <key>level</key>
+                <key>root</key>
+                <array>
+                    <string>A fault is:</string>
+                </array>
+                <key>options</key>
+                <options>
+                    <array>
+                        <string>Found in the software; the result of an error</string>
+                    </array>
+                    <array>
+                        <string>Departure from specified behavior</string>
+                    </array>
+                    <array>
+                        <string>Deviation of the software from its expected delivery or service</string>
+                    </array>
+                    <array>
+                        <string>A human action that produces an incorrect result</string>
+                    </array>
+                </options>
+                <key>right</key>
+                <right>
+                    <integer>1</integer>
+                </right>
+                <key>explanation</key>
+                <explanation>
+                    <string xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </explanation>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>1.1_34.0</string>
+                <key>level</key>
+                <key>root</key>
+                <array>
+                    <string>A manifestation of an ‘error’ in software is:</string>
+                </array>
+                <key>options</key>
+                <options>
+                    <array>
+                        <string>An Error</string>
+                    </array>
+                    <array>
+                        <string>A Fault</string>
+                    </array>
+                    <array>
+                        <string>A Failure</string>
+                    </array>
+                    <array>
+                        <string>An Action</string>
+                    </array>
+                </options>
+                <key>right</key>
+                <right>
+                    <integer>2</integer>
+                </right>
+                <key>explanation</key>
+                <explanation>
+                    <string xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                </explanation>
+            </dict>
+        </array>
+    </session>
+    <session>
+        <key>Session</key>
+        <array>
+            <dict>
+                <key>id</key>
+                <string>Session_id</string>
+                <key>level</key>
+                <string>Level</string>
+                <key>root</key>
+                <array>
+                    <string>Stem part</string>
+                </array>
+                <key>options</key>
+                <options>
+                    <array>
+                        <string>A</string>
+                    </array>
+                    <array>
+                        <string>B</string>
+                    </array>
+                    <array>
+                        <string>C</string>
+                    </array>
+                    <array>
+                        <string>D</string>
+                    </array>
+                </options>
+                <key>right</key>
+                <right>
+                    <integer>-1</integer>
+                </right>
+                <key>explanation</key>
+                <explanation>
+                    <string>Explaination</string>
+                </explanation>
+            </dict>
+        </array>
+    </session>
+</dict>
